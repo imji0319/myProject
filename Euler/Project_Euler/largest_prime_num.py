@@ -26,7 +26,6 @@ def largest_prime_number(num):
         if len(prime) == 2:
             answer.append(i)
     
-    print(factor)            
-    print(answer[-1]) 
+    return  answer[-1]
     
-largest_prime_number(600851475143)
+print(largest_prime_number(600851475143))
