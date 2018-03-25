@@ -15,7 +15,7 @@ def howmany(a):
     while True:
         c = a*b
         
-        m=re.match('^[1]*$',str(c))
+        m=re.match('^[1]*$',str(c))   # only 1 
         if bool(m) :
             return c 
             break
